@@ -27,7 +27,7 @@ public class MyQueueDLLBImpl<E> implements MyQueue<E> {
     public E dequeue() {
 
 
-        int result = front.E_x;
+        int result = front.E x;
         front = front.next;
         if(front == null) {
             rear = null;

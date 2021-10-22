@@ -28,8 +28,8 @@ public class DLinkList<E> {
         return length;
     }
 
-    public void addFirst(int T_elem){
-        Node<T> new_node = new Node<T>(T_elem);
+    public void addFirst(int T elem){
+        Node<T> new_node = new Node<T>(T elem);
 
         if (isEmpty()){
             tail = new_node;
@@ -41,8 +41,8 @@ public class DLinkList<E> {
         length++;
     }
 
-    public void addEnd(int T_elem){
-        Node<T> new_node = new Node<T>(T_elem);
+    public void addEnd(int T elem){
+        Node<T> new_node = new Node<T>(T elem);
 
         if (isEmpty()){
             head = new_node;
